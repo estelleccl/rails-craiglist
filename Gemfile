@@ -38,3 +38,6 @@ gem 'spring',        group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+# Use faker to seed categories
+gem 'faker',        group: :development
+gem 'byebug',        group: :development
