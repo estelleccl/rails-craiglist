@@ -1,8 +1,13 @@
 Steps to run this app:
+
 1) run "bundle"
+
 2) run "bundle exec rake db:create"
+
 3) run "bundle exec rake db:migrate"
+
 4) run "bundle exec rake db:seed"
+
 5) run "rails s"
 
 == README
