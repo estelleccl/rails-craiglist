@@ -14,3 +14,37 @@
  *= require_self
  */
 a { text-decoration: none; }
+
+body { padding-top: 80px; }
+footer { margin-top: 80px; }
+table, td, th { vertical-align: middle; border: none; }
+th { border-bottom: 1px solid #DDD; }
+
+footer {
+    background-color: #ebebeb;
+    padding: 30px ;
+  }
+
+.navbar {
+   min-height: 38px;
+   background-color: #000080;
+   padding-left: 0;
+}
+
+.navbar a.brand { font-size: 18px; }
+.navbar a.brand:hover {
+   color: #fff;
+   background-color: transparent;
+   text-decoration: none;
+}
+
+.navbar .navbar-default .navbar-fixed-top {
+	background-color: #000080;
+}
+
+.container1 {
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+	border: 1px dotted black;
+}
