@@ -10,6 +10,19 @@ Steps to run this app:
 
 5) run "rails s"
 
+************
+if you want to edit a category - just add /edit after the category id
+
+eg. 
+localhost:3000/categories/<category id>/edit
+
+************
+if you want to edit a post - just add /edit after the post id & key
+
+eg.
+localhost:3000/posts/<post id>/edit?key=<password>
+************
+
 == README
 
 This README would normally document whatever steps are necessary to get the
